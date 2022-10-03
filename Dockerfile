@@ -1,3 +1,3 @@
 FROM golang:1.19
-workdir /app
+WORKDIR /app
 ENTRYPOINT [ "tail", "-f", "/dev/null" ]
